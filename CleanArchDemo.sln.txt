@@ -1,0 +1,4 @@
+Create the solution with:
+  dotnet new sln -n CleanArchDemo
+  dotnet sln add src/Domain src/Application src/Infrastructure src/Api
+  dotnet run --project src/Api
